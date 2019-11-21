@@ -1,0 +1,76 @@
+/* cards start  */
+.card {
+  box-shadow: 0 4px 8px 0 lightgrey;
+  width: 15%;
+  border-radius: 2%;
+  float: left;
+  padding: 4px 6px 8px 10px;
+  margin: 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 lightgray;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }    
+}
+/* Cards end */
+/* Table start  */
+#employee {
+  width: 50%;
+  border-collapse: collapse;
+  margin-left: 10px
+}
+
+#employee th {
+  background-color: green;
+  color: white
+}
+
+#employee th, #employee td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left
+}
+
+#employee tr:hover {
+  background-color: #f2f2f2
+}
+
+#employee tr:nth-child(even) {
+  background-color: #ddd
+}
+/* Table end */
+
+@media screen and (max-width:600px) {
+  #employee {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 10px
+  }
+  
+  #employee th {
+    background-color: green;
+    color: white
+  }
+  
+  #employee th, #employee td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left
+  }
+  
+}
