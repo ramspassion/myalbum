@@ -53,7 +53,7 @@ class Employees_Employee_Model extends Component {
 
     render() {
         return <div>
-                    <button type="submit" onClick={this.showModal}>New Employee</button>
+                    <button style={{marginLeft: 878}} type="submit" onClick={this.showModal}>New Employee</button>
                     <Modal onClose={this.showModal} show={this.state.show}><EmployeeNewFormModal /></Modal>
                     {/* <input style={{marginLeft:862}} type="button" value="New Employee" onClick={this.showModel} /><Modal show={this.state.show} onClose={this.showModel}><EmployeeNewForm /></Modal> */}
                     <table id="employee">
