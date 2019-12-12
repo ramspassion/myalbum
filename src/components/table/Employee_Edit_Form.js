@@ -84,7 +84,7 @@ class Employee_Edit_Form extends Component {
                 <input type="text" name="email" value={this.state.email} onChange={this.onChange} />
                 <br/><br/>
                 <button onClick={this.onEdit} style={{padding:10,fontSize:12,backgroundColor:'green', color:'white'}} type="button" name="submit">Submit</button>
-                <button style={{padding:10,fontSize:12, margin:10, backgroundColor:'gray', color:'white'}} type="cancel" name="cancel" onClick={this.onCancel}>Cancel</button>
+                <button style={{padding:10,fontSize:12, margin:10, backgroundColor:'gray', color:'white'}} type="button" name="cancel" onClick={this.onCancel}>Cancel</button>
             </div>
         </form>
     }

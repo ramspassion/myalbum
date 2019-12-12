@@ -79,7 +79,7 @@ class Employee_New_Form_Modal extends Component {
             <br /><br />
             <button style={{padding:10, fontSize:15, color:'white', backgroundColor: 'green'}} name="submit" type="submit" onClick={this.onReload}>Submit</button>
             <span style={{margin:5}}/>
-            <button style={{padding:10, fontSize:15}} name="cancel" type="cancel" onClick={this.onCancel}>Cancel</button>
+            <button style={{padding:10, fontSize:15}} name="cancel" type="submit" onClick={this.onCancel}>Cancel</button>
             </div>
         </form>
     }

@@ -12,6 +12,7 @@ import Employees_Employee_New_Delete_Edit from './components/table/Employees_Emp
 import Employee_Edit_Form from './components/table/Employee_Edit_Form';
 import Employees_Employee_Model from './components/table/Employees_Employee_Model';
 import ModalSampleButton from './components/modal/ModalSampleButton';
+import Employees_Employee_CRUD_Loader from './components/table/Employees_Employee_CRUD_Loader';
 
 class Routes extends Component {
     render() {
@@ -27,6 +28,7 @@ class Routes extends Component {
                 <li><Link to='/employees-employee-new-delete-edit'>EmployeesViewNewDeleteEdit</Link></li>
                 <li><Link to='/employees-employee-model'>EmployeesViewNewDeleteEditModel</Link></li>
                 <li><Link to='/sample-modal'>Sample Modal</Link></li>
+                <li><Link to='/employees-employee-crud-loader'>EmployeesCRUDWithLoader</Link></li>
             </ul>
             <Switch>
                 <Route path='/mycards' component={MyCards}></Route>
@@ -41,6 +43,7 @@ class Routes extends Component {
                 <Route path='/employee-edit-form/:id' component={Employee_Edit_Form}/>
                 <Route path='/employees-employee-model' component={Employees_Employee_Model} />
                 <Route path='/sample-modal' component={ModalSampleButton} />
+                <Route path='/employees-employee-crud-loader' component={Employees_Employee_CRUD_Loader} />
             </Switch>
         </Router>
     }
